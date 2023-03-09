@@ -23,12 +23,24 @@
     <form>        
         <label for="nombre">Escribe nombre completo</label>
         <input type="text" name="nombre" id="nombre" placeholder="Nombre completo">        
-        <br>
+        <br><br><br>
         <label for="correo">Escribe tu correo</label>
-        <input type="email" name="correo" id="correo" placeholder="Correo">        
-        <br>
+        <input type="email" id="correo" placeholder="Correo" pattern=".+@hotmail\.com" size="30" required>        
+        <br> <br><br>
         <label for="asunto">Escribe tu asunto</label>
-        <input type="text" name="asunto" id="asunto" placeholder="Asunto">              
+        <input type="text" name="asunto" id="asunto" placeholder="Asunto">
+         <br><br><br>
+        <label for="">Escribe aquí tu descripción</label>
+         <br>
+        <textarea name="area" id="" cols="30" rows="10"></textarea>
+        <br>
+        <input type="button" value="Enviar" placeholder="Enviar">
+        <br><br>
+        <select name="" id="">
+            <option value="">Colombia</option>
+            <option value=""></option>
+        </select>
+
     </form>
     <center>
         <div>
