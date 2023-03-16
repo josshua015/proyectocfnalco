@@ -1,0 +1,55 @@
+.tamano-bordes {
+    border-style: solid red;
+    border-width: 10px;
+}
+.estilo-de-borde {
+    border: 10px rgb(6, 80, 102);
+    border-radius: 20%;   
+}
+h1 {
+    border-left: 10px rgb(139, 3, 3);
+    border-style: double;
+}
+.margen {
+    margin: auto 30px;
+}
+
+.todoenuno {
+    margin-top: 20px;
+    margin-right: 45px;
+    margin-bottom: 35px;
+    margin-left: 10px;
+}
+.background-aqua {
+    background-color: aqua;
+}
+.background-violet {
+    background-color: violet;
+}
+.background-verde-claro {
+    background-color: greenyellow;
+}
+.estilo-punteado {
+    border-style: dotted;
+    border-width: 2px;
+  }
+  .estilo-solido-10px {
+    border-style: solid;
+    border-width: 10px;
+  }
+  p {
+    text-align: justify;
+    size: 200%;
+  }
+  .padding-rigth-70{
+    padding-right: 70%;
+  }
+  .padding-left-70{
+    padding-left: 70%;
+  }
+  .padding-center{
+    padding:30% 30%;
+  }
+  .lineaexterna{
+    outline: 2px dotted red;    
+  }

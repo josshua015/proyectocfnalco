@@ -1,6 +1,6 @@
 #bg_img_usb{
     background-image: url(https://www.icesi.edu.co/biblioteca/wp-content/uploads/2022/02/universidad-san-buenaventura.jpg);
-    width: 10%;
+    width: 100%;
 }
 .color_verde {  
     color: chartreuse;
@@ -10,6 +10,12 @@
 }
 .tamano-tabla {
     margin-right: 1%;
-    margin-right: 1%;
-
+    margin: 1%;
+    border-radius: 5px;
+}
+.fondo-tabla {
+    background-color: rgb(72, 5, 228);
+}
+.fondo-color-tabla {
+    background-color: rgb(236, 26, 243);
 }

@@ -1,0 +1,62 @@
+#soto-delineado {
+    text-decoration: overline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+    text-decoration-thickness: 1px;
+    text-transform: capitalize;
+}
+#subrayado {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 1px;
+    text-transform: lowercase;
+}
+.tachado-texto {
+    text-decoration: line-through;
+    text-decoration-color: chartreuse;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 1px;
+}
+#linea-ondulada {
+    text-decoration:overline;
+    text-decoration-color: rgb(218, 15, 150);
+    text-decoration-style: wavy;
+    text-decoration-thickness: 1px;
+}
+.color-rojo {
+    color: red;
+} 
+#color-azuloscuro{
+    color: rgb(221, 217, 5);
+}
+,p{
+    color: violet;
+}
+
+//Aquí empieza el ejercicio//
+
+.todo-en-uno {
+    text-align: :right;
+    color: blue;
+    text-decoration-color: aqua;
+    text-decoration-line: underline;
+    text-decoration-style: double;    
+}
+#color-decoracion-texto{
+    text-decoration-line: overline;
+    text-decoration-color: aqua;
+    text-align: center;
+    text-decoration-thickness: 20px;        
+}
+.shadow {
+    text-shadow: 2px 1px 2px coral;
+    text-decoration-color: red !important;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 200%;
+    color: rgba(255, 0, 0, 0.767);
+    text-align: center;
+    background-color: darkcyan;
+}

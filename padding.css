@@ -1,0 +1,40 @@
+h1{
+    background-color: aliceblue;
+    border-radius: 5px;       
+}
+.p-top-10{
+    padding-top: 10px;
+}
+.p-left-20{
+    padding-left: 20px;
+}
+.p-bottom{
+    padding-bottom: 10px;
+}
+.p-rigth-20{
+    padding-right: 20px;    
+}
+.p-auto {
+    padding: 10px;
+    border-radius: 10px red;
+}
+.cardform1{
+    border: 2px solid rgb(11, 14, 189);
+    border-radius: 10px;
+    background-color: rgb(230, 209, 233);
+    color: rgb(5, 14, 15);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+.inputname{
+    border: 3px solid rgb(138, 236, 228);
+    border-radius: 5px;
+    background-color: rgb(194, 175, 175);
+}
+.ubi-image{
+    border-radius: 20px;
+}
+.background-color-azure{
+    background-color: rgb(208, 245, 245);
+}
