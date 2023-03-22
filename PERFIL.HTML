@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="perfil.css">
     <title>Perfil</title>
 </head>
 <style>
@@ -15,14 +16,15 @@
     }
 </style>
 <body>
-    <div>
+    <div style="image-orientation: initial;">
         <center>
             <h1>Diseño Josue David Pérez Bernal</h1>
+            <img src="https://blog.hubspot.es/hubfs/media/imagenfondocompleto.png" alt="">
         </center>
         <p>Soy Josue David Pérez Bernal, estudiante de Creación de Páginas WEB, docente de Ciencias Sociales. Licenciado en Filosofía. Creador amateur de apps. </p>
         <br>
     </div>
-    <div>        
+    <div class="hedaer-div" id="box1">        
         <a href="intro.html" target="_blank">
             <img src="https://www.seekpng.com/png/full/20-202988_light-power-on-energy-green-button-sun-sunlight.png" width="5%" height="10%">
             <img src="https://www.seekpng.com/png/full/211-2116484_all-seo-tools-you-need-in-only-one.png" width="5%" height="10%">
@@ -144,7 +146,7 @@
     <br>
     <hr>
     <br>
-    <div class="menu" >
+    <div class="menu ancho-alto-250" id="box2">
         <center>
             <h1>Jose y Josue Diseñadores de Páginas WEB</h1>
         </center>
@@ -161,7 +163,7 @@
     
     <hr>
     <div class="contenido">
-        <div id="11">
+        <div class="linea-externa-div" id="box3">
             <h3>hipervinculo</h3>
             <p>
                 Cuando queramos que los visitantes puedan navegar de manera sencilla entre las páginas necesitaremos usar hipervinculos o enlaces. Hablamos de un mecanismo que nos dan el poder de intercambiar la página que estamos visualizando o movernos con rapidez a un apartado a otro. E incluso ir a lugares externos que no nos pertenecen.
@@ -169,7 +171,7 @@
                 </a>
             </p>            
         </div>
-        <div id="12">
+        <div class="linea-externa-div" id="12">
             <h3>atributo hipervinculo</h3>
             <img src="https://concepto.de/wp-content/uploads/2018/02/http-min-e1518718001273.jpg" alt="" width="50%" height="5%" srcset="">
             <p>
@@ -177,7 +179,7 @@
                 <a href="https://www.campusmvp.es/recursos/post/como-insertar-enlaces-en-html.aspx#:~:text=El%20atributo%20href%20de%20los%20enlaces&text=Pues%20es%20la%20abreviatura%20de,hacer%20clic%20en%20el%20enlace." target="_blank">vermas</a>
             </p>
         </div>
-        <div id="13">
+        <div class="linea-externa-div" id="13">
             <h3>img</h3>
             <img src="https://www.shutterstock.com/image-vector/ui-line-icon-img-picture-260nw-766128430.jpg" height="50%" sizes="10%" alt="">
             <p>
@@ -185,7 +187,7 @@
                 <a href="https://programadorwebvalencia.com/cursos/html/imagenes/" target="_blank">vermas</a>
             </p>
         </div>
-        <div id="14">
+        <div class="linea-externa-div" id="14">
             <h3>atributo img</h3>
             <img src="https://i.blogs.es/1473c9/world/1024_2000.jpg" width="50%" alt="">
             <p>                
@@ -193,7 +195,7 @@
                 <a href="https://www.htmlquick.com/es/reference/tags/img.html" target="_blank">vermas</a>
             </p>
         </div>
-        <div id="15">
+        <div class="linea-externa-div" id="15">
             <h3>marcadores</h3>
             <img src="https://www.eniun.com/wp-content/uploads/etiquetas-html-compartir-pagina-web-iphone-android.png" width="50%" alt="">
             <p>                
@@ -201,15 +203,35 @@
                 <a href="https://www.eniun.com/marcadores-html-enlaces-locales/" target="_blank">vermas</a>
             </p>
         </div>
-        <div id="16">
+        <div class="lin-ext-abrv" id="box4">
             <h3>google fonts</h3>
-            <img src="https://academia.crandi.com/wp-content/uploads/2022/01/que-es-google-font-academia-crandi.jpg-1024x490.png" width="50%" alt="">
+            <img src="https://academia.crandi.com/wp-content/uploads/2022/01/que-es-google-font-academia-crandi.jpg-1024x490.png" width="50%" class="offset-img" id="box5" alt="">
             <p>                
                 Aunque no lo creas, la tipografía es una parte muy importante en cualquier tipo de diseño. La tipografía que elijamos va a tener una gran importancia para transmitir ideas, información y valores. Si hablamos de diseño web, la fuente que utilicemos para los textos determinará la usabilidad de la aplicación o de la web. Existen muchas herramientas que pueden ayudarnos: Google Font es una de ellas. Descubrí cómo utilizar Google Font es tus proyectos de diseño web. ¡Seguí leyendo!
                 Fuente de: https://academia.crandi.com/diseno-web/google-font/
                 <a href="https://academia.crandi.com/diseno-web/google-font/" target="_blank">vermas</a>          
             </p>
         </div>
+    </div>
+    <div class="hedaer-div">
+        <p>
+            El curso de maquetación, de la Fundación Universitaria Comfenalco, es una gran oportunidad para aprender sobre la maquetación de páginas web.
+        </p>
+        <h2>Ejercicio</h2>
+        <ol>
+            <li>
+                <a href="#box1">Aplica en un elemento html el box model</a>
+            </li>
+            <li>
+                <a href="#box2">A tus divs de experiencias laborales dale una altura y ancho con height y width</a>
+            </li>
+            <li>
+                Agrega outline a tus divs de experiencias laborales utilizando <a href="#box3">outline-width, outline-style, outline-color</a> y la forma abreviada <a href="#box4">outline: 5px solid yellow;</a>
+            </li>
+            <li>
+               <a href="#box5">Aplica a una imagen outline-offset para generar un especie de marco</a>
+            </li>
+        </ol>
     </div>
 </body>
 </html>

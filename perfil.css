@@ -1,0 +1,33 @@
+body {
+    padding-top: 30px ;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background-image: url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg);
+}
+.hedaer-div {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.ancho-alto-250 {
+    width:160px;
+    border: 20px solid rgb(9, 133, 182);
+    padding: 60px;
+    margin: 10px;
+}
+.linea-externa-div{
+    outline-width: 20px;
+    outline-style: double;
+    outline-color: red;
+}
+.lin-ext-abrv {
+    outline: 5px solid yellow;
+}
+.offset-img {
+    outline-style: solid;
+    outline-width: 5px;
+    outline-offset: 10px;
+    outline-color: rgb(10, 247, 10);
+}
